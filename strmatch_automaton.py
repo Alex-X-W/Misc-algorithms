@@ -31,6 +31,7 @@ class Automaton(object):
       if s == m:
         print("find occurence at shift {}".format(i-m))
 
+
 if __name__ == '__main__':
   pattern = 'ti'
   string = 'multinational'
