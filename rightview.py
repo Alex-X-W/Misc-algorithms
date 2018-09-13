@@ -44,6 +44,7 @@ n6.left = n8
 
 seen = dict()
 
+
 def rightview(root, d, seen):
   if root:
     rightview(root.right, d+1, seen)
